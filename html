@@ -15,10 +15,11 @@
             </div>
             <nav>
                 <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
                     <li><a href="#home">Maxar Intelligence</a></li>
-                    <li><a href="#services">Maxar Space system</a></li>
-                    <li><a href="#news">News and Events</a></li>
-                    <li><a href="#contact">Carrier</a></li>
+                    <li><a href="service/index.html">Services</a></li>
+                    <li><a href="#news">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
@@ -55,13 +56,19 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer>
         <div class="container">
             <p>&copy; 2024 MRSAC. All rights reserved. | <a href="#privacy">Privacy Policy</a></p>
         </div>
     </footer>
 
+    <!-- Chatbot iframe -->
+    <div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; width: 300px; height: 400px; z-index: 1000;">
+        <iframe src="ChatBot/chatbot.html" width="100%" height="100%" style="border: none;"></iframe>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
+
