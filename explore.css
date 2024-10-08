@@ -24,6 +24,7 @@ header {
 header .logo {
     display: flex;
     align-items: center;
+
 }
 
 header .logo img {
@@ -46,6 +47,9 @@ header nav ul {
 
 header nav ul li {
     margin: 0 20px;
+    margin-right: 90px;
+    padding-left: 30px;
+   font-weight: bold;
 }
 
 header nav ul li a {
