@@ -40,8 +40,10 @@ header nav {
 }
 
 header .logo img {
-    width: 70px;  /* Adjusted logo size */
+    width: 80px;  /* Adjusted logo size */
     height: auto; 
+    padding-left: 25px;
+    margin-top: 15px;
 }
 
 header nav ul {
@@ -51,6 +53,8 @@ header nav ul {
 
 header nav ul li {
     margin: 0 50px;
+    padding-left: 35px;
+   font-weight: bold;
 }
 
 header nav ul li a {
